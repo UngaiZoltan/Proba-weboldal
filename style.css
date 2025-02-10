@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(60, 50, 49)
+}
+
+#main-container{
+    width: 800px;
+    margin: auto;
+}
+
+header{
+    background-image: url(bordofal.jpg);
+    font-size: 1.5rem;
+    height: 100px;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    background-color: black;
+    width: 200px;
+    display: grid;
+    color: white;
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+nav li{
+    transition: 0.2s linear;
+    margin: 10px 10px;
+    padding: 5px;
+}
+
+nav li:hover{
+    background-color: rgb(167, 161, 161);
+    margin-left: 15px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+#main-content{
+    background-image: url(hatter.jpg);
+    height: auto;
+    padding: 0px 75px;
+}
+
+.menus{
+    padding: 15px;
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, 0.623);
+    background: rgba(255, 255, 255, 0.384);
+    margin: 30px 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#középrész{
+    display: flex;
+}
+
+hr{
+    width: 175px;
+}
